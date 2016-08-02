@@ -4,4 +4,4 @@ https://www.udemy.com/angular-2-tutorial-for-beginners/
 
 All execercises developed on top of Angular 2 RC release using  angular cli 
 
-Each folder contains different section source code and each folder is indivisual angularj2 project. intructions related to project is available inside project read me 
+Each branch contains add new section's source code and each branch add new indivisual angularj2 project. intructions related to project is available inside project read me 
