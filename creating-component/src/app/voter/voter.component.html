@@ -1,0 +1,8 @@
+
+<div class='voter'>
+<li class="glyphicon glyphicon-menu-up voter-button" [class.highlighted]="myVote == 1" 
+ (click)='upVote()'></li>
+ <span class='voter-count'>{{voteCount+myVote}}</span>
+ <li class="glyphicon glyphicon-menu-down voter-button" [class.highlighted]="myVote == -1" 
+ (click)='downVote()'></li>
+</div>

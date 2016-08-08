@@ -1,0 +1,8 @@
+<ul class="nav nav-pills">
+  <li [class.active]="viewMode == 'home' " ><a (click)="viewMode='home'">Home</a></li>
+  <li [class.active]="viewMode == 'msg'"><a (click)="viewMode='msg'">Messages</a></li>
+</ul>
+<div [ngSwitch]="viewMode">
+  <template [ngSwitchWhen]="'home'">Home Content</template>
+  <template [ngSwitchWhen]="'msg'">Message Content</template>
+</div>  

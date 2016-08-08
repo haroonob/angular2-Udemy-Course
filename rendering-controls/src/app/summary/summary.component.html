@@ -1,0 +1,12 @@
+<div class="media">
+  <div class="media-left">
+    <a href="#">
+      <img class="media-object" src="..." alt="...">
+    </a>
+  </div>
+  <div class="media-body">
+    <h4 class="media-heading">{{post.title}}</h4>
+    {{post.body | summary: 200 : 100}}
+     {{post.point | number:'2.2-2'}}
+  </div>
+</div>
